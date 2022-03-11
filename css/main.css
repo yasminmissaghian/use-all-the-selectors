@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fdf6e3;
+}
+
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents, #favs, #facts, #types {
+  color: #93a1a1;
+}
+
+.wrapper > .dfn {
+  background-color: #b58900;
+}
+
+.dfn p + strong {
+  color: #fff;
+}
+
+ul li:first-child {
+  background-color: #719e07;
+}
+
+h2 ul li:nth-child(3) {
+  background-color: #2694d8
+}
+
+ul li:last-child {
+  background-color: #719e07;
+}
+
+ul li:nth-child(3) {
+  background-color: #719e07
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
+}
+
+.types ol li:nth-child(odd) {
+  background-color: #657ba3;
+}
+
+.types ol li:nth-child(even) {
+  background-color: #586e75;
+}
+
+.types ol li:nth-of-type(3, 6, 9, 12) {
+  background-color: #d04b16;
+}
