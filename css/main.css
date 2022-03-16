@@ -38,20 +38,24 @@ nav ul {
   color: #fff;
 }
 
-ul li:first-child {
+nav ul li:first-child {
   background-color: #719e07;
 }
 
-h2 ul li:nth-child(3) {
-  background-color: #2694d8
-}
-
-ul li:last-child {
+nav ul li:nth-child(3) {
   background-color: #719e07;
 }
 
-ul li:nth-child(3) {
-  background-color: #719e07
+nav ul li:last-child {
+  background-color: #719e07;
+}
+
+main ul li:nth-child(3) a:link {
+  background-color: #2694d8;
+}
+
+main ul li:first-child {
+  background-color: #719e07;
 }
 
 ol li:first-child {
@@ -62,14 +66,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-.types ol li:nth-child(odd) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types ol li:nth-child(even) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types ol li:nth-of-type(3, 6, 9, 12) {
+.types li:nth-child(3n+3) {
   background-color: #d04b16;
 }
