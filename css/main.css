@@ -38,15 +38,15 @@ nav ul {
   color: #fff;
 }
 
-nav ul li:first-child {
+nav ul li:first-child a {
   background-color: #719e07;
 }
 
-nav ul li:nth-child(3) {
+nav ul li:nth-child(3) a {
   background-color: #719e07;
 }
 
-nav ul li:last-child {
+nav ul li:last-child a {
   background-color: #719e07;
 }
 
@@ -54,7 +54,7 @@ main ul li:nth-child(3) a:link {
   background-color: #2694d8;
 }
 
-main ul li:first-child {
+main ul li:first-child a {
   background-color: #719e07;
 }
 
